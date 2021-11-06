@@ -6,6 +6,7 @@
 }
 .jumbotron{
   margin-bottom:0px !important;
+  padding: 2px;
 }
 .jumbotron .row{
   margin: 0px !important;
