@@ -4,6 +4,18 @@
   padding: 9px;
   display: flex;
 }
+.jumbotron{
+  margin-bottom:0px;
+}
+.jumbotron .row{
+  margin: 0px;
+}
+.navbar-center{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
 #log > div:first-child {
   border: 0;
 }
@@ -138,4 +150,11 @@ select {
     top: 50px;
     padding: 20px;
   }
-}
+  
+} 
+@media screen and (max-width: 992px) {
+.navbar-center{
+  position: static;
+  left: none;
+  transform: none;
+}}
