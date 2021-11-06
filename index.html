@@ -3,16 +3,16 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Konkani Tesseract OCR | ಕೊಂಕಣಿ ಓಸಿಆರ್ ಡೆಮೋ</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style/ocr.css">
-  <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+  <title>Konkani  OCR | ಕೊಂಕಣಿ ಓಸಿಆರ್ ಡೆಮೋ</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/ocr.css">
+        <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/4414288e8e.js"></script>
-  <script src='js/tesseract.min.js'></script>
+        <script src="https://kit.fontawesome.com/4414288e8e.js"></script>
+        <script src='js/tesseract.min.js'></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DLMDJKF8Z"></script>
   <style>
@@ -68,10 +68,10 @@
       <div class="row">
         <div class="col-sm-8">
           <select id=“langsel”>
-            <option value=‘kan+eng+devanagari’> Kannada + English + Devanagari </option>
-            <option value=‘kan’> ಕನ್ನಡ </option>
-            <option value=‘devanagari’> Devanagari </option>
-            <option value=‘eng’> English </option>
+            <option value="hin"> Devanagari </option>
+            <option value="kan+eng+hin"> Kannada + English + Devanagari </option>
+            <option value="kan"> ಕನ್ನಡ </option>
+            <option value="eng"> English </option>
           </select>
         </div>
         <div class="col-sm-4">
@@ -84,7 +84,7 @@
               </svg> <span>Select the file&hellip;</span></label>
           </div>
         </div>
-      </div>‍
+      </div>
     </div>
 
     <div class="container ">
@@ -97,7 +97,7 @@
           <i id="arrow-right" class="fas fa-arrow-right d-none d-md-block"></i>
           <i id="arrow-down" class="fas fa-arrow-down d-block d-md-none"></i>
         </div>
-        <div class="col-sm-5">‍
+        <div class="col-sm-5">
           <div id="log">
             <span id="startPre">
               <a id="startLink" href="#">Click here to identify text in the given demo image via OCR</a>
@@ -110,10 +110,14 @@
       <div class="row">
 
         <hr />
+	<p>
         Note: The files you upload here would be processed on the your local browser. We don’t save the files in our
         server/won’t share this information with anyone. This project is a practical implementation of Tesseract OCR to
         test the Free & Open Source OCR project for Konkani related Indic scripts. This demo has been setup using
-        Tesseract.js project. ‍
+        Tesseract.js project.
+	</p>
+        <hr />
+
       </div>
     </div>
   </main>
