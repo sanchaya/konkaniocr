@@ -10,6 +10,9 @@
 .jumbotron .row{
   margin: 0px;
 }
+.top-images {
+  margin: 0;
+}
 .navbar-center{
     position: absolute;
     left: 50%;
