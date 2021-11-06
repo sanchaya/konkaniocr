@@ -5,10 +5,10 @@
   display: flex;
 }
 .jumbotron{
-  margin-bottom:0px;
+  margin-bottom:0px !important;
 }
 .jumbotron .row{
-  margin: 0px;
+  margin: 0px !important;
 }
 .top-images {
   margin: 0;
